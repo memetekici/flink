@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="classes" thread-count="2" verbose="2" >
+    <test name="E2E Test"   >
+        <classes>
+            <class name="tests.E2E" />
+            <!--I have no other classes.İf I have multiple class,I will write it here     -->
+        </classes>
+    </test>
+</suite>
